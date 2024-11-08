@@ -32,9 +32,10 @@ h1
     align-self: center;
     margin-right: 15px;
 }
-.h1-div
+ol,form
 {
-
+    padding: 10px;
+    color: #80E632;
 }
 ul
 {
@@ -44,13 +45,14 @@ ul
     overflow: hidden;
     background-color: #566649 ;
 }
-li, a
+.li-nav, a
 {
     text-align: center;
     display: inline;
     float: left;
     padding: 14px 16px;
     color: #80E632;
+    text-decoration: none;
 }
 li a:hover
 {
@@ -87,3 +89,18 @@ img
     display: flex;
     flex-direction: row;
 }
+
+section
+{
+     flex-grow: 8;
+     width:45%;
+     align-items: center;
+     margin: 5px;
+}
+
+.section2
+{
+    display: flex;
+    flex-direction: column;
+}
+
