@@ -1,0 +1,89 @@
+body
+{
+    background-color:#373B34;
+    margin: 0;
+}
+
+.kode-mono {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+.audiowide-regular {
+    font-family: "Audiowide", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+h1
+{
+    text-align: center;
+    color: #80E632;
+    flex-grow: 8;
+    align-self: center;
+    margin-right: 15px;
+}
+.h1-div
+{
+
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #566649 ;
+}
+li, a
+{
+    text-align: center;
+    display: inline;
+    float: left;
+    padding: 14px 16px;
+    color: #80E632;
+}
+li a:hover
+{
+    margin: 0;
+    padding: auto;
+    background-color: #2F3828 ;
+}
+
+.active
+{
+    background-color: #6C9150;
+}
+
+img 
+{
+    width: 150px;
+    border-radius: 10px;
+    
+}
+
+.header-cont
+{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.container-row
+{
+    display: flex;
+    flex-direction: row;
+}
