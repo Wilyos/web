@@ -105,6 +105,7 @@ img
     display: flex;
     flex-direction: row;
     margin-bottom: 100px;
+    flex-grow: 8;
 }
 
 section
@@ -169,8 +170,16 @@ table
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
-  
   width: 100%;
+}
+p{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    width: 100%;
+    color: #80E632;
+    font-size: medium;
 }
 
 td, th{
@@ -189,4 +198,35 @@ td, th{
     background-color: black;
     text-align: center;
     width: 150px;
+}
+
+.img-info
+{
+    height: 500px;
+    width: auto;
+    justify-content: center;
+}
+
+.section-img
+{
+    flex: 30%;
+    align-self: flex-end;
+    margin-left: 20px;
+    flex-grow: 6;
+    padding: 10px;
+}
+
+.main-info
+{
+align-items: center;
+justify-content: center;
+justify-items: center;
+flex: 70%;
+padding: 10px;
+}
+
+video
+{
+    height: 720;
+    width: auto;
 }
