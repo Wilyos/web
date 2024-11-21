@@ -257,3 +257,16 @@ video
     transition: 0.3s;
     text-decoration: none;
 }
+
+.contGrid
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item
+{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
