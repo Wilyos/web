@@ -266,7 +266,32 @@ video
 
 .grid-item
 {
+    
+    padding: 0 4px;
+    width: auto;
     padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     font-size: 30px;
+    text-align: center;
+    margin-left: 90px;
+    
+}
+
+.grid-item2
+{
+    flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.grid-item:hover
+{
+    transform:scale(1.2);
+}
+
+.info
+{
+    justify-content: center;
     text-align: center;
 }
