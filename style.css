@@ -90,7 +90,7 @@ li, a:hover
     border-radius: 20px;
 }
 
-img 
+.imglog
 {
     width: 150px;
     border-radius: 10px;
@@ -280,16 +280,24 @@ video
 
 .grid-item2
 {
-    flex: 25%;
+    flex: 30%;
   max-width: 25%;
+
   padding: 0 4px;
+  margin: 50px;
+}
+.grid-item2:hover{
+    transform: scale(2)
 }
 
 .grid-item:hover
 {
     transform:scale(1.2);
 }
-
+.img-porta
+{
+    width: 30%;
+}
 .info
 {
     justify-content: center;
